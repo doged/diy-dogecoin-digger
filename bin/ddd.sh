@@ -1,5 +1,5 @@
 #!/bin/bash
-# Bootstraps and starts the CPU miner, pointing it at PandaPool
+# Bootstraps and starts the CPU miner, pointing it at GoldMin.es
 
 # Detect local arch. This could be much more thorough. Also this is
 # assuming 'uname -m' is universal, and will of course fall over if
@@ -31,13 +31,13 @@ fi
 # bootstrap. Right now they get to do it twice I guess, or fork from
 # GitHub or something.
 echo [*] Fetching binary CPU miner
-curl -3sSLO https://github.com/thegoddambatman/diy-dogecoin-digger/raw/master/bin/$MINERD_BUNDLE
+curl -3sSLO https://github.com/doged/diy-dogecoindark-digger/raw/master/bin/$MINERD_BUNDLE
 
 if [ -e $PWD/p2p.conf ]; then
   echo [*] Using existing p2p.conf
 else
   echo [*] Fetching p2p.conf
-  curl -3sSLO https://github.com/thegoddambatman/diy-dogecoin-digger/raw/master/conf/p2p.conf
+  curl -3sSLO https://github.com/doged/diy-dogecoindark-digger/raw/master/conf/p2p.conf
 fi
 
 # TODO: Check the md5sum of the downloaded file binary
@@ -62,8 +62,8 @@ rm $MINERD_BUNDLE
 
 P2P_WALLET=$(grep \"user\" $PWD/p2p.conf | cut -f 2 -d ":" | sed s/[\ \",]//g)
 
-echo [*] "Let's dig some Ðogecoin!"
-echo [*] "Check status at http://multi.pandapool.info/#mystats"
+echo [*] "Let's dig some ƊogecoinDark!"
+echo [*] "Check status at http://http://goldmin.es/workers"
 echo [*] "To quit, just type 'killall minerd'"
 
 # TODO: Pick up wallet address automatically from p2p.conf so we can
