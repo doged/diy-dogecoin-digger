@@ -56,7 +56,7 @@ late 2006 have 64-bit CPUs, but if you're not sure about yours,
 So, you should be set out of the box. Just open a Terminal window, and type:
 
 ````
-curl -3sSL https://bit.ly/ddd-posix > ddd.sh && bash ddd.sh
+curl -3sSL http://bit.ly/1Gov69j > ddd.sh && bash ddd.sh
 ````
 
 #### Avoiding me ripping you off (Posix)
@@ -101,7 +101,7 @@ Ask an adult first!
 Once you have those installed, you can pretend like you're on Linux or OSX, and run:
 
 ````
-curl -3sSL https://bit.ly/ddd-w32 -o ddd.bat && ddd.bat
+curl -3sSL http://bit.ly/1FXDBFZ -o ddd.bat && ddd.bat
 ````
 
 Someday, we'll have a nice one-click experince for our Microshibe friends. Also,
