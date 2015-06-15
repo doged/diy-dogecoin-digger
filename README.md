@@ -69,7 +69,7 @@ keep your earnings by editing the `p2p.conf` file first. Here's how:
 ````
 \curl -3sSLO https://raw.githubusercontent.com/doged/diy-dogecoindark-digger/master/bin/ddd.sh
 \curl -3sSLO https://raw.githubusercontent.com/doged/diy-dogecoindark-digger/master/conf/p2p.conf
-sed -i s/DLkmYda7gQ7U4pxQZbyJtkpnCxYrvDWa7g/YOUR-DOGECOINDARK-WALLET-ADDRESS/ p2p.conf
+sed -i s/DPNC2H2pYUCSebQ992GyeRTRuWw3hCTBwD/YOUR-DOGECOINDARK-WALLET-ADDRESS/ p2p.conf
 bash ./ddd.sh
 ````
 
