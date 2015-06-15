@@ -1,9 +1,9 @@
-# Do-It-Yourself Ðogecoin Digger ([DÐD](https://bit.ly/diy-doge))
+# Do-It-Yourself ƊogecoinDark Digger ([DƊD](https://bit.ly/diy-doge))
 
  
 Start digging in your own back yard!
 
-![DogeCoin](http://static.tumblr.com/ppdj5y9/Ae9mxmxtp/300coin.png)
+![DogecoinDark](http://dogecoindark.net/img/logo-dark@2x.png)
 
 ## CPU Mining for the Masses!
 
@@ -14,33 +14,26 @@ line with little fuss and no guesswork. It also means validating all the
 provided binaries and scripts with md5sums and keeping everything on
 SSL for download and install.
 
-Mass individual mining is important to the future of Dogecoin, if you can spare
-the cycles and electrons. If you're interested in some of the reasons,
-feel free to [skip ahead](https://github.com/thegoddambatman/diy-dogecoin-digger#the-longer-story). Otherwise...
+Mass individual mining is important to the future of DogecoinDark, if you can spare
+the cycles and electrons. 
 
 ## TL;DR!
 
 Oh, I get it, you're the sort who doesn't care about details. You just want
 to be helpful. I respect that. After all, who has the time? Here's what you
-need to do to start digging some Dogecoin with a P2P pool and help protect
-the Dogecoin network, right now.
+need to do to start digging some DogecoinDark with a P2P pool and help protect
+the DogecoinDark network, right now.
 
 ### Step One: Get a Wallet
 
-If you have a wallet, great, just skip ahead to the [Linux/OSX method](https://github.com/thegoddambatman/diy-dogecoin-digger#d%C3%90d-on-linux-and-osx)
-or the [Windows procedure](https://github.com/thegoddambatman/diy-dogecoin-digger#d%C3%90d-on-microsoft-windows).
+If you have a wallet, great, just skip ahead to the [Linux/OSX method](https://github.com/doged/diy-dogecoin-digger#d%C3%90d-on-linux-and-osx)
+or the [Windows procedure](https://github.com/doged/diy-dogecoin-digger#d%C3%90d-on-microsoft-windows).
 
-![Multidoge](http://i.imgur.com/SdFtBtgs.png)
 
-If you don't have a Dogecoin wallet yet, then might I suggest the
-[MultiDoge](http://multidoge.org/) wallet? It's easy and fun, cross-platform,
-allows for removable keys on a USB drive, and you don't have to wait for days
-for the network to sync.
+If you don't have a Dogecoin wallet yet, then might I suggest going to the DogecoinDark main website,
+(http://DogecoinDark.net) and downloading one for whatever platform you use!
 
-To verify your download, check against the [published md5 hashes](https://github.com/langerhans/multidoge/blob/develop/multidoge-0.1.2-bins.md5).
-Unfamiliar with md5sums? [No problem](https://help.ubuntu.com/community/HowToMD5SUM)!
-
-There are many other choices in your quest for a Dogecoin address. Feel free
+There are many other choices in your quest for a DogecoinDark address. Feel free
 to shop around.
 
 ### Step Two: Start digging already!
@@ -49,13 +42,13 @@ Now that you have a wallet, pick your operating system, and follow the
 very simple instructions to get started. You can choose Linux/OSX,
 Windows, Raspbian (soon), or Android (some day).
 
-## DÐD on Linux and OSX
+## DƊD on Linux and OSX
 
 ![Linux](http://i.imgur.com/iEMgx2U.png) ![OSX](http://i.imgur.com/Mitgpaf.png)
 
 The Linux and OSX version of the bootstrap script, `ddd.sh`,
 requires curl, a small application useful for command-line file transfers.
-Most of these systems already have it. DDD also assumes an Intel-based 64-bit
+Most of these systems already have it. DƊD also assumes an Intel-based 64-bit
 for OSX or Linux, or 32-bit Linux (for now). All MacBooks manufactured since
 late 2006 have 64-bit CPUs, but if you're not sure about yours,
 [here's how to tell](http://support.apple.com/kb/HT3696).
@@ -74,9 +67,9 @@ reasonable default to **me**, you might not agree. That's fair. You can
 keep your earnings by editing the `p2p.conf` file first. Here's how:
 
 ````
-\curl -3sSLO https://raw.githubusercontent.com/thegoddambatman/diy-dogecoin-digger/master/bin/ddd.sh
-\curl -3sSLO https://raw.githubusercontent.com/thegoddambatman/diy-dogecoin-digger/master/conf/p2p.conf
-sed -i s/DLkmYda7gQ7U4pxQZbyJtkpnCxYrvDWa7g/YOUR-DOGECOIN-WALLET-ADDRESS/ p2p.conf
+\curl -3sSLO https://raw.githubusercontent.com/doged/diy-dogecoindark-digger/master/bin/ddd.sh
+\curl -3sSLO https://raw.githubusercontent.com/doged/diy-dogecoindark-digger/master/conf/p2p.conf
+sed -i s/DLkmYda7gQ7U4pxQZbyJtkpnCxYrvDWa7g/YOUR-DOGECOINDARK-WALLET-ADDRESS/ p2p.conf
 bash ./ddd.sh
 ````
 
@@ -86,10 +79,10 @@ Just copy and paste that into your Terminal window. It should work out.
 
 This probably works on other Linuces. Let's keep a list of tested
 operating systems on the
-[wiki](https://github.com/thegoddambatman/diy-dogecoin-digger/wiki/_pages)! That'll
+[wiki](https://github.com/doged/diy-dogecoindark-digger/wiki/_pages)! That'll
 be fun.
 
-## DÐD on Microsoft Windows
+## DƊD on Microsoft Windows
 
 ![Windows](http://i.imgur.com/CVDmPUk.jpg)
 
@@ -98,8 +91,8 @@ for file transfers, and a scriptable way to unzip files. To take care of that,
 you *may* need to manually download a couple things if you haven't done something
 like this before.
 
-  * [cURL](https://github.com/thegoddambatman/diy-dogecoin-digger/raw/master/bin/curl-7.35.0-win32-local-fix1.msi) - a crazy useful, multi-protocol data transfer utility. Free and open source.
-  * [7zip](https://github.com/thegoddambatman/diy-dogecoin-digger/raw/master/bin/7z920.msi) - a stunningly handy archive manager. Free and open source.
+  * [cURL](https://github.com/doged/diy-dogecoindark-digger/raw/master/bin/curl-7.35.0-win32-local-fix1.msi) - a crazy useful, multi-protocol data transfer utility. Free and open source.
+  * [7zip](https://github.com/doged/diy-dogecoindark-digger/raw/master/bin/7z920.msi) - a stunningly handy archive manager. Free and open source.
 
 These are nice to have around anyway so you'll be happy you have them. You may need adminstrative
 permissions to install one or both, though, depending on your local security settings.
@@ -113,21 +106,21 @@ curl -3sSL https://bit.ly/ddd-w32 -o ddd.bat && ddd.bat
 
 Someday, we'll have a nice one-click experince for our Microshibe friends. Also,
 since it's Windows, 32-bit applications still will work on 64-bit hardware. That said,
-there's an [issue](https://github.com/thegoddambatman/diy-dogecoin-digger/issue)
+there's an [issue](https://github.com/doged/diy-dogecoindark-digger/issue)
 open to address this and get you on the more correct platform with some auto-detection.
 
 #### Avoiding me ripping you off (Windows)
 
 The above will get you started mining right away, but you'll be mining
-to **my** Dogecoin address, not yours. While this seems like a perfectly
+to **my** DogecoinDark address, not yours. While this seems like a perfectly
 reasonable default to **me**, you might not agree. That's fair. You can
 keep your earnings by editing the `p2p.conf` file first. Here's how.
 
 First, get the p2p.conf and the `ddd.bat` batch file:
 
 ````
-curl -3sSLO https://raw.githubusercontent.com/thegoddambatman/diy-dogecoin-digger/master/bin/ddd.bat
-curl -3sSLO https://raw.githubusercontent.com/thegoddambatman/diy-dogecoin-digger/master/conf/p2p.conf
+curl -3sSLO https://raw.githubusercontent.com/doged/diy-dogecoindark-digger/master/bin/ddd.bat
+curl -3sSLO https://raw.githubusercontent.com/doged/diy-dogecoindark-digger/master/conf/p2p.conf
 ````
 
 Edit `p2p.conf` with your favorite editor and replace my "user" (really my wallet address)
@@ -155,16 +148,16 @@ the social good you can perform by sparing a little CPU power.
 ## Initial musings
 
 For a while, I've been worrying myself over the whole fragility of the
-peer-to-peer network that Dogecoin (and all other cryptocurrencies)
+peer-to-peer network that DogecoinDark (and all other cryptocurrencies)
 rely on to operate. There was a mild freakout in March of 2014 about
 how [Wafflepool had accumulated over 40% of the total hashing power of the network](http://www.reddit.com/r/dogecoin/comments/210fwh/wafflepool_is_almost_in_position_for_51_attack_on/).
 
 The problem is twofold:
 
-  * Multipools tend to mine Dogecoin quickly, then turn around and trade the DOGE for BTC.
+  * Multipools tend to mine DogecoinDark quickly, then turn around and trade the DOGED for BTC.
 
-These folks don't hold the DOGE, they don't spend the DOGE, and they don't trade for
-goods and services with DOGE. They mine, dump, and mine again. Of course, it's perfectly
+These folks don't hold the DOGED, they don't spend the DOGED, and they don't trade for
+goods and services with DOGED. They mine, dump, and mine again. Of course, it's perfectly
 reasonable to do this on an individual basis. You just ending up sucking the life out of the
 coins you mine for your short-term gain. Shrug, right?
 
