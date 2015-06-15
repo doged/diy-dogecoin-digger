@@ -1,10 +1,10 @@
-# DÐD Bins
+# DƊD Bins
 
 This is where the binaries live. Don't fret, they're small and harmless.
 
 ## Pooler's CPUMiner
 
-The guts of DDD is @pooler's CPU miner (aka, `minerd`), pulled from
+The guts of DƊD is @pooler's CPU miner (aka, `minerd`), pulled from
 [SourceForge](http://sourceforge.net/projects/cpuminer/files/) .
 
 Source and license is available [at his repo](github.com/pooler/cpuminer). While the below md5sums were verified
@@ -39,7 +39,7 @@ pooler-cpuminer-2.3.3.tar.gz               | 2014-02-27 | 3464ac9faca77c83010554
 
 This list is far from complete, of course -- getting builds together for
 more exotic hardware that you might have lying around not digging for
-Dogecoin is a priority around here.
+DogecoinDark is a priority around here.
 
 ## Helper applications
 
