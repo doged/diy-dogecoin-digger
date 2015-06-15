@@ -1,4 +1,4 @@
-# Do-It-Yourself ƊogecoinDark Digger ([DƊD](https://bit.ly/diy-doge))
+# Do-It-Yourself ƊogecoinDark Digger [DƊD]
 
  
 Start digging in your own back yard!
