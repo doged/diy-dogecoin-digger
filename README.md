@@ -184,38 +184,11 @@ time to time, at various levels of fault. Imagine what happens when the network 
 
 So, let's try to mitigate against that.
 
-## Enter the Multipools
-
 This project defaults to setting up a CPU miner to contribute its
-proof-of-work to an anonymous multipool,
-[PandaPool](http://multi.pandapool.info/#support). You're of course,
-welcome to use whatever pool you like, but these days, Panda is nice for
+proof-of-work to an anonymous pool,
+[GoldMin.es](http://goldmin.es). You're of course,
+welcome to use whatever pool you like, but these days, GoldMin.es is nice for
 no-registration-required mining.
-
-## What about the P2Pool?
-
-This project *used* to mine to a peer-to-peer pool,
-[Doge.st](http://doge.st). Sadly, Doge.st announced they were closing
-down, and a suitable replacement hasn't been found yet.
-
-These kinds of pools are usually referred to as a P2Pool, and Doge.st is
-one of several sub-pools (which itself is P2P). The crucial bit is that
-P2Pool (and the proxies) promote **decentralization**, while traditional
-and multipools promote **centralization**.
-
-You are more than welcome to read the write up at the [BitCoin wiki](https://en.bitcoin.it/wiki/P2Pool) as well
-as /u/Verrok's [introductory Reddit post](http://www.reddit.com/r/dogecoin/comments/1ypd7w/hey_rdogecoin_check_it_out_ive_wrote_a_mining/) to figure
-out how all that works. They explain it way better than I can.
-
-Oh, and since the payouts on these pools is generally pretty consistent, you're not really sacrificing much
-if you were already mining with one of the multipools or doge-centric pools.
-
-## [GoodShibe's](http://reddit.com/u/GoodShibe) Post
-
-Finally, the real reason why I stopped worrying and learned to love the CPU miner is
-GoodShibe's post, [Of Wolves and Weasels, Day 81](http://www.reddit.com/r/dogecoin/comments/21o1k4/of_wolves_and_weasels_day_81_the_grim_reality/), which, to
-me, pretty much reads like [St. Crispin's Day](https://en.wikipedia.org/wiki/St._Crispin%27s_Day_Speech) 
-style call to action. Therefore, in answer to his call to action, I put this together.
 
 Let's make it easy to drop CPU miners everywhere, have them all throwing in on a peer-to-peer sharechain,
 and drive down the influence of the pooled miners. That's my take, anyway.
@@ -239,7 +212,7 @@ hog all the rocket juice for himself.
 
 # Contribute!
 
-In the grand scheme of Dogecoin, this is a pretty minor project.
+In the grand scheme of DogecoinDark, this is a pretty minor project.
 But, open source things like this often end up being a one man
 show, and that's a sure way to turn into abandonware in six months.
 
@@ -247,11 +220,7 @@ The fact is, there are way smarter people than me out there, with all
 kinds of useful experience and knowledge. If you want contributor rights,
 and I have some way of verifying that you are a trustworthy sort that's
 not going to go backdoor all those noob shibes coming here, feel free to
-e-mail me or hit me up on [Reddit](http://reddit.com/u/thegoddambatman).
-
-All that said, the best thing you could do for the project is to scrawl
-the bit.ly link places that are interested in Dogecoing, CPU mining,
-and security: **https://bit.ly/diy-doge**
+e-mail me or hit me up on [Reddit](http://reddit.com/u/sunerok).
 
 # Tipjar
 
@@ -259,10 +228,10 @@ and security: **https://bit.ly/diy-doge**
 
 Of course, it's not a proper cryptocurrency project unless you leave out a tip jar. Here's mine:
 
-[DLkmYda7gQ7U4pxQZbyJtkpnCxYrvDWa7g](http://dogechain.info/address/DLkmYda7gQ7U4pxQZbyJtkpnCxYrvDWa7g)
+[DPNC2H2pYUCSebQ992GyeRTRuWw3hCTBwD](http://blockexperts.com/address/DPNC2H2pYUCSebQ992GyeRTRuWw3hCTBwD)
 
 You'll note it's the same as the default address in these one-line installers. If people really are
 falling for the default wallet address trick, you can keep tabs on my
-apparent hashrate on [PandaPool](http://multi.pandapool.info/#mystats)
--- just plug in **DLkmYda7gQ7U4pxQZbyJtkpnCxYrvDWa7g*. I promise to fix that, by
+apparent hashrate on [GoldMin.es](http://goldmin.es/workers)
+-- just look for **DPNC2H2pYUCSebQ992GyeRTRuWw3hCTBwD*. I promise to fix that, by
 the way. I just don't have a good way to do it yet.
