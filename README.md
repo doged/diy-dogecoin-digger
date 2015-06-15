@@ -224,8 +224,6 @@ e-mail me or hit me up on [Reddit](http://reddit.com/u/sunerok).
 
 # Tipjar
 
-![Tipjar](http://i.imgur.com/ehUkOjO.png)
-
 Of course, it's not a proper cryptocurrency project unless you leave out a tip jar. Here's mine:
 
 [DPNC2H2pYUCSebQ992GyeRTRuWw3hCTBwD](http://blockexperts.com/address/DPNC2H2pYUCSebQ992GyeRTRuWw3hCTBwD)
